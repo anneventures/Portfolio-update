@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Anne Simon | Online Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link href="assets/css/reset.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Reenie+Beanie" rel="stylesheet">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+
+				$(".toggle").click(function(){
+					$("ul").toggleClass("active");
+				});
+			
+			});	
+		</script>
+
+	</head>
+
+	<body>
+		<header>
+				<h1>Anne's portfolio</h1>
+
+			<nav>
+
+				<div class="toggle">
+					<i class="fas fa-bars"></i>
+				</div>
+
+				<ul>					
+					<li><a href="#aboutContainer">About</a></li>
+					<li><a href="#projectsContainer">Projects</a></li>
+					<li><a href="#contactContainer">Contact</a></li>
+				</ul>
+
+			</nav>
+		</header>
+		<div id="backTop" class="parallax"></div>
+
+		<section id="aboutContainer">
+
+			<div id="aboutCard">
+				<img src="assets/images/annePic.jpg"style="width:100%;">
+				
+				<h2>Hi, I'm Anne</h2>
+
+			</div>
+
+			<div id="aboutInfo">
+				<h3>About me...</h3><br/>
+				<p>For the past few years, I have been involved in projects related to <span>e-learning</span> in <span>healthcare</span> alongside education specialists, clinicians, graphic designers, editors and IT staff. I am currently pursuing my studies in <span>full stack web development</span> in hopes to start some freelance projects on the side.</p>
+				<br/>
+				<p>This site showcases my web development projects and ways to contact me for work <span>collaboration</span> opportunities or just to <span>say hi!</span></p>
+			
+			</div> 
+
+		<p class="top"><a href="#backTop">Back to top</a></p>
+
+		</section>
+
+		<section id="projectsContainer">
+<!-- 			<h2>Projects</h2>
+ -->			
+
+
+ 		<p class="top"><a href="#backTop">Back to top</a></p>
+
+		</section>
+
+		<section id="contactContainer">
+<!-- 			<h2>Contact</h2>
+ -->			<p class="top"><a href="#backTop">Back to top</a></p>
+
+		</section>				
+
+		<div class="parallax"></div>
+
+
+	</body>
+</html>
