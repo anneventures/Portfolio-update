@@ -106,8 +106,14 @@ h3 {
 }
 
 #projectsContainer {
-	background: #c0c954;
-	color:#382903;
+	background: #367588;
+	color:#fff;
+}
+
+#projectInfo {
+	margin-top:240px;
+	line-height: 1.5em;
+	font-size:1.55vw;	
 }
 
 #contactContainer {
